@@ -25,6 +25,8 @@ import { NotificationComponent } from './notification/notification.component';
 
 
 
+
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -48,7 +50,7 @@ import { NotificationComponent } from './notification/notification.component';
         MatToolbarModule,
         MatPaginatorModule,
         ReactiveFormsModule,
-        AppRoutingModule
+
     ],
     providers: [
         DataService
